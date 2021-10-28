@@ -1,0 +1,23 @@
+.container {
+  display  : flex;
+  flex-flow: column;
+
+  border-bottom: 1px solid #cccccc;
+}
+
+.nav-container {
+  flex: 1;
+
+  display    : flex;
+  flex-flow  : column;
+  align-items: stretch;
+}
+
+.nav-top {
+  display  : flex;
+  flex-flow: row;
+}
+
+.nav-top ::deep>*:not(:first-child) {
+  flex: 1;
+}

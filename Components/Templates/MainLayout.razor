@@ -1,0 +1,25 @@
+@*
+    Main Layout
+    ===========
+    Page Header
+    Body content
+    Page Fooder
+*@
+@using AtomicDesign.Components.Organisms
+
+@namespace AtomicDesign.Components.Templates
+
+@inherits LayoutComponentBase
+
+<div class="page typography">
+    <div class="pageHeader">
+        <PageHeader />
+    </div>
+
+    <div class="main">
+        @Body
+    </div>
+
+    <div class="footer">
+    </div>
+</div>

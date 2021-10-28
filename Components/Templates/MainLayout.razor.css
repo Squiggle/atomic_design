@@ -1,0 +1,22 @@
+.page {
+    height: 100vh;
+
+    display  : flex;
+    flex-flow: column;
+
+    color           : var(--colour-foreground);
+    background-color: var(--colour-background);
+}
+
+.header {
+    flex: 0;
+}
+
+.main {
+    flex  : 1;
+    margin: 0 0.5em;
+}
+
+.footer {
+    flex: 0;
+}

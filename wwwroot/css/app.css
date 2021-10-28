@@ -1,0 +1,56 @@
+html,
+body,
+#app {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+
+    /**
+    Theming
+    **/
+
+    /* spacing */
+    --spacing-xs: 4px;
+    --spacing-s : 8px;
+    --spacing-m : 16px;
+    --spacing-l : 24px;
+    --spacing-xl: 32px;
+
+    /* typography */
+    --font-s     : 14px;
+    --font-m     : 18px;
+    --font-l     : 24px;
+    --font-family: Poppins, arial, sans-serif;
+
+    /* palette */
+    --colour-primary   : #FF323C;
+    --colour-secondary : #AAAAAA;
+    --colour-foreground: #111111;
+    --colour-background: #fafafa;
+}
+
+/**
+Common reusable styles
+**/
+.typography {
+    font-family: var(--font-family);
+}
+
+.typography-s {
+    font-size: var(--font-s);
+}
+
+.typography-m {
+    font-size: var(--font-m);
+}
+
+.typography-l {
+    font-size: var(--font-l);
+}
+
+/**
+Link styles
+**/
+a {
+    color: inherit;
+}

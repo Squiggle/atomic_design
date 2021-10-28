@@ -1,0 +1,24 @@
+.hero {
+  width              : 100%;
+  height             : 300px;
+  background-color   : var(--colour-primary);
+  background-image   : url(http://placekitten.com/400/300);
+  background-size    : cover;
+  background-position: center;
+  border             : 1px solid red;
+  filter             : grayscale(100%) sepia(50%) hue-rotate(var(--theme-hue, 150deg));
+  display            : block;
+  position           : relative;
+}
+
+.hero::after {
+  content   : "";
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=);
+  opacity   : 0.2;
+  top       : 0;
+  left      : 0;
+  bottom    : 0;
+  right     : 0;
+  position  : absolute;
+  z-index   : 1;
+}
