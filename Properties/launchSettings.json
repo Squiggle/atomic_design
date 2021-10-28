@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "techexp_blazor": {
+    "atomic_design_blazor": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
